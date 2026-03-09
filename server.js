@@ -38,6 +38,7 @@ const MODEL_MAPPING = {
   'gemini-pro': 'moonshotai/kimi-k2.5',
   'GLM': 'z-ai/glm4.7',
   "GLM-5": "zai-org/GLM-5",
+  "deepseek-3.1-terminus": "deepseek-ai/deepseek-v3.1-terminus",
 };
 
 // Root endpoint
