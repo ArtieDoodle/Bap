@@ -32,6 +32,7 @@ const MODEL_MAPPING = {
   'nemotron': 'nvidia/nemotron-mini-4b-instruct',
   'gemini-pro': 'moonshotai/kimi-k2-instruct-0905',
   'deepseek-3.1-terminus': 'deepseek-ai/deepseek-v3.1-terminus',
+  'devstral-2': 'mistralai/devstral-2-123b-instruct-2512',
 };
 
 // Root endpoint
