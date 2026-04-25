@@ -31,6 +31,7 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 const MODEL_MAPPING = {
   'nemotron': 'nvidia/nemotron-mini-4b-instruct',
   'gemini-pro': 'moonshotai/kimi-k2-instruct-0905',
+  'deepseek-v4-flash':'deepseek-ai/deepseek-v4-flash',
   'deepseek-v4-pro': 'deepseek-ai/deepseek-v4-pro',
   'devstral-2': 'mistralai/devstral-2-123b-instruct-2512',
 };
