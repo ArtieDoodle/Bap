@@ -29,8 +29,7 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'glm-5.2': 'z-ai/glm-5.2',
-  'mistral': 'mistralai/mistral-nemotron'
+  'minimax': 'minimaxai/minimax-m3'
 };
 
 // Root endpoint
