@@ -30,7 +30,7 @@ const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
   'glm-5.2': 'z-ai/glm-5.2',
-  'nemotron-3.5-lightning': 'nvidia/nemotron-3.5-lightning-30b-a3b',
+  'nemotron-3.5-lightning': 'nvidia/nemotron-3.5-lightning-30b-a3b'
 };
 
 // Root endpoint
