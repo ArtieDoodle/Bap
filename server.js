@@ -22,16 +22,15 @@ const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.c
 const NIM_API_KEY = process.env.NIM_API_KEY;
 
 // 🔥 REASONING DISPLAY TOGGLE - Shows/hides reasoning in output
-const SHOW_REASONING = false; // Set to true to show reasoning with <think> tags
+const SHOW_REASONING = true; // Set to true to show reasoning with <think> tags
 
 // 🔥 THINKING MODE TOGGLE - Enables thinking for specific models that support it
-const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwargs thinking parameter
+const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs thinking parameter
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'deepseek-v4-flash':'deepseek-ai/deepseek-v4-flash',
-  'deepseek-v4-pro': 'deepseek-ai/deepseek-v4-pro',
   'glm-5.2': 'z-ai/glm-5.2',
+  'nemotron-3.5-lightning': 'nvidia/nemotron-3.5-lightning-30b-a3b',
 };
 
 // Root endpoint
