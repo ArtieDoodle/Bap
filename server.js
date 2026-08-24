@@ -29,7 +29,7 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'minimax': 'minimaxai/minimax-m3'
+  'deepseek-v4-flash': 'deepseek-ai/deepseek-v4-flash-0731'
 };
 
 // Root endpoint
