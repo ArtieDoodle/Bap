@@ -30,7 +30,8 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
   'deepseek-v4-flash': 'deepseek-ai/deepseek-v4-pro-0813',
-  'kimi-k3': 'moonshotai/kimi-k3'
+  'kimi-k3': 'moonshotai/kimi-k3',
+  'nemotron': 'nvidia/nemotron-3.5-lightning-30b-a3b'
 };
 
 // Root endpoint
